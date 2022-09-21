@@ -1,0 +1,86 @@
+body {
+  background: hsl(57deg, 100%, 48%);
+  background: linear-gradient(90deg, rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
+  background: -moz-linear-gradient(90deg, rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
+}
+
+.xyz-in:hover, .Titulo_principal:hover, .boton:hover {
+  color: black;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgb(9, 121, 114) 36%, rgb(0, 212, 255) 100%);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2%;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: xx-large;
+  margin-right: 20px;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 4%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Bebas Neue", cursive;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  justify-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 5%;
+}
+main article {
+  padding: 2%;
+}
+
+.Titulo_principal {
+  color: rgb(20, 4, 4);
+  border-style: solid;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: xx-large;
+  background-color: whitesmoke;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background: rgb(176, 174, 238);
+  background: radial-gradient(circle, rgb(176, 174, 238) 0%, rgb(29, 30, 31) 100%);
+}
+.Titulo_principalhover {
+  color: black;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgb(9, 121, 114) 36%, rgb(0, 212, 255) 100%);
+}
+
+header {
+  padding: 60px;
+  text-align: center;
+  background-image: url(../images/header.jpg);
+  color: white;
+  font-size: 30px;
+  padding: 5%;
+  font-family: "Bebas Neue", cursive;
+}
+header div p {
+  font-size: xx-large;
+  justify-content: right;
+  text-align: left;
+  font-family: "Bebas Neue", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */
