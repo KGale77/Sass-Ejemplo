@@ -1,19 +1,12 @@
 body {
-
     background: hsla(57, 100%, 48%, 1);
-
     background: linear-gradient(90deg, rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
-    
     background: -moz-linear-gradient(90deg,   rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
-    
-    
     background: -webkit-linear-gradient(90deg,  rgb(184, 193, 194) 0%, rgb(148, 185, 209) 100%);
-    
-    
-    
-    
 
 }
+
+@import "../variables/variables";
 
 .xyz-in:hover, .Titulo_principal:hover, .boton:hover {
     color: black;
@@ -31,7 +24,7 @@ nav{
             list-style-type: none;
         display: inline;
         text-align: center;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "Times New Roman", Times, serif;
         font-style: italic;
         font-size: xx-large;
         margin-right: 20px;
@@ -43,8 +36,8 @@ nav{
 
             a{
                 text-decoration: none;
-                color: black;
-                font-family: 'Bebas Neue', cursive;
+                color: $color_oscuro;
+                font-family: "Bebas Neue", cursive;
             }
         }
     }
@@ -66,7 +59,7 @@ main {
 
 .Titulo_principal{
         &hover {
-            color: black;
+            color: $color_oscuro;
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgba(9,121,114,1) 36%, rgba(0,212,255,1) 100%);
         }
@@ -75,7 +68,7 @@ background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgba(9,121,114,1) 36%, rgba
         color: rgb(20, 4, 4);
     border-style: solid;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     font-size: xx-large;
     background-color: whitesmoke;
     padding-top: 3%;
@@ -96,13 +89,13 @@ header{
     color: white;
     font-size: 30px;
     padding: 5%;
-    font-family: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     div {
         p{
             font-size: xx-large;
             justify-content: right;
             text-align: left;
-            font-family: 'Bebas Neue', cursive;
+            font-family: "Bebas Neue", cursive;
         }
     }
 
