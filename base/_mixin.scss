@@ -1,12 +1,12 @@
 
 @mixin Cabecera{
     padding: 60px;
-    color:white
+    color:white;
 }
 
 
 
-header{
+.header{
 
     @include Cabecera();
     text-align: map-get( $header, text-align );
@@ -72,8 +72,23 @@ nav{
     }
 }
 
+@mixin Principal{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
-
+.row {
+    
+    @include Principal();
+    flex-direction: row;
+    padding: 5%;
+    article{
+        padding: 2%;
+    }
+}
 
 
 

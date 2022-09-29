@@ -2,49 +2,10 @@
 
 @import "../variables/variables";
 @import "../base/maps";
-@import '../base/mixin';
+@import "../base/mixin";
+@import "../base/extend";
 
 
 
 
-
-
-
-
-
-main {
-    display: flex;
-    justify-content: space-around    ;
-    flex-direction: row;
-    justify-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 5%;
-    article{
-        padding: 2%;
-    }
-}
-
-.Titulo_principal{
-        &hover {
-            color: $color_oscuro;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgb(5, 2, 54) 0%, rgba(9,121,114,1) 36%, rgba(0,212,255,1) 100%);
-        }
-
-    
-        color: rgb(20, 4, 4);
-    border-style: solid;
-    text-align: center;
-    font-family: "Bebas Neue", cursive;
-    font-size: xx-large;
-    background-color: whitesmoke;
-    padding-top: 3%;
-    padding-bottom: 3%;
-
-    background: rgb(176,174,238);
-    background: radial-gradient(circle, rgba(176,174,238,1) 0%, rgba(29,30,31,1) 100%);
-    
-
-}
 
